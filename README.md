@@ -38,4 +38,10 @@ A Personal portfolio website, created by utilizing Vite+React frameworks, and ad
   ```
   ```sh
   npm install react-scroll 
-  ```                    
+  ```
+  
+* Run Project
+  
+  ```sh
+  npm run dev   
+  ```
