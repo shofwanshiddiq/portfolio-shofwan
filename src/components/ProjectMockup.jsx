@@ -3,6 +3,8 @@ import mockup_1 from "../assets/mockup_1.png"
 import mockup_2 from "../assets/mockup_2.png"
 import mockup_3 from "../assets/mockup_3.png"
 import mockup_4 from "../assets/mockup_4.png"
+import mockup_5 from "../assets/mockup_5.png"
+import mockup_6 from "../assets/mockup_6.png"
 import { project_portfolio, project_mobile, project_ecommerce, project_enchantre, project_enchantre_website, project_ticketing}  from "../constants/index.js"
 
 export const ProjectMockup = () => {
@@ -103,7 +105,7 @@ export const ProjectMockup = () => {
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-1/3">{project_ecommerce}</div>
                 <div  className="flex mt-2 justify-start">
-                        <a href="www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                        See Website
                         </a>
                         <a href="https://github.com/shofwanshiddiq/mobile-apps"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
@@ -120,11 +122,11 @@ export const ProjectMockup = () => {
               <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
-                    src={mockup_4}
-                    alt="mockup_4"
+                    src={mockup_6}
+                    alt="mockup_6"
                   />
                 </div>
-                <div className="mt-2 text-right text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">HR Mobile Apps</div>
+                <div className="mt-2 text-right text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Enchantre Website</div>
                 <div className="flex mt-2 mb-5 justify-end">
                         <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-900 to-gray-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         HTML & CSS5
@@ -140,6 +142,14 @@ export const ProjectMockup = () => {
                         </div>
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-right">{project_enchantre_website}</div>
+                <div  className="flex mt-2 justify-end">
+                        <a href="https://enchantre.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Website
+                        </a>
+                        <a href="https://github.com/shofwanshiddiq/enchantre"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Repositories
+                        </a>
+                  </div>
               </div>
 
 
@@ -167,11 +177,11 @@ export const ProjectMockup = () => {
                         </div>
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{project_enchantre}</div>
-                <div  className="flex mt-2 justify-start">
-                        <a href="www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                       Website
+                  <div  className="flex mt-2 justify-start">
+                        <a href="https://enchantre.com/product.html"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        See Products
                         </a>
-                        <a href="https://github.com/shofwanshiddiq/mobile-apps"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://github.com/shofwanshiddiq/enchantre"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                         Repositories
                         </a>
                   </div>
@@ -185,11 +195,11 @@ export const ProjectMockup = () => {
             <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
-                    src={mockup_3}
-                    alt="mockup_3"
+                    src={mockup_5}
+                    alt="mockup_5"
                   />
                 </div>
-                <div className="mt-2 text-left text-[2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Ticketing Web App</div>
+                <div className="mt-2 text-left text-[1.7rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Ticketing Web App</div>
               <div className="flex mt-2 mb-5 justify-start">
               <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-900 to-gray-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         HTML & CSS5
@@ -206,10 +216,10 @@ export const ProjectMockup = () => {
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-2/3">{project_ticketing}</div>
                 <div  className="flex mt-2 justify-start">
-                        <a href="www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                        See Website
                         </a>
-                        <a href="https://github.com/shofwanshiddiq/mobile-apps"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://github.com/shofwanshiddiq/ticketing"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                         See Full Repositories
                         </a>
                   </div>

@@ -12,9 +12,7 @@ export const project_ecommerce = `An e-commerce app that integrates with an acco
 
 Create the front end with basic HTML and CSS for an interactive yet simplistic design, and the back end with .NET Frameworks and a RESTful API.`;
 
-export const project_enchantre_website = `Commercials website for Enchantre digital wedding invitation, showcase product calalog, features, pricing and client dashboard menu for showcase guest reservation data and other information. 
-
-Use HTML & CSS5 for front-end design, and PHP, mySQL, and Cpanel API for back-end development.`;
+export const project_enchantre_website = `Commercials website for Enchantre digital wedding invitation, showcase product calalog, features, pricing and client dashboard menu for showcase guest reservation data and other information.`;
 
 export const project_ticketing = `Web Application for client support manage ticketing system submitted by clients. 
 

@@ -14,7 +14,7 @@ export const Navbar = ({ isDarkMode }) => {
         isDarkMode ? "text-white font-poppins font-light" : "text-white font-poppins font-light" 
       }`}>
         <div className="hidden md:block flex flex-shrink-0 items-center">
-          <a href="https://portfolio-shofwan.vercel.app/">
+          <a href="">
             <img className="h-6" src={logo} alt="logo" />
           </a>
         </div>
