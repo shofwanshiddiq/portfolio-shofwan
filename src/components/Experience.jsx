@@ -4,14 +4,14 @@ import { motion } from "framer-motion"
 export const Experience = () => {
   return (
     <div className="flex items-center justify-center mb-40">
-        <div className="justify-left w-2/3 font-poppins font-light text-[0.9rem]">
+        <div className="justify-left w-full md:w-3/5 font-poppins font-light text-[0.9rem]   mt-20">
             <motion.h1 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0 }}  className="mb-8 text-2xl">My Experience </motion.h1>
-            <div className="hover:bg-primary-skyblue hover:bg-opacity-5 flex mb-20 py-5 px-5 rounded-md">
+            <div className="hover:bg-primary-skyblue hover:bg-opacity-5 flex flex-col md:flex-row mb-20 py-5 px-5 rounded-md">
                 <div>
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0.2 }}  className="text-primary-skyblue mb-10">Sep 2022 - Present</motion.div>
-                     <motion.img  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 1.4 }}  className="h-[40vh]" src={experience} alt="experience" />
+                     <motion.img whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 1.4 }}  className="h-[40vh] hidden md:block" src={experience} alt="experience" />
                 </div>
-                <div className="ml-20 w-2/3">
+                <div className="ml-0 md:ml-20 md:w-2/3">
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.5 }} ><a className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent font-poppins font-medium text-[1.2rem]">Software Engineer </a>at PT Minova Infotech Solutions</motion.div>
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="flex mt-2 mb-10">
                     <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-4 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
@@ -37,11 +37,11 @@ export const Experience = () => {
             </div>
             
             <motion.h1 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0 }}  className="mb-8 text-2xl">Courses </motion.h1>
-            <div  className="hover:bg-primary-skyblue hover:bg-opacity-5 flex mb-20 py-5 px-5 rounded-md">
+            <div  className="hover:bg-primary-skyblue hover:bg-opacity-5 flex flex flex-col md:flex-row mb-20 py-5 px-5 rounded-md">
                 <div>
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0.2 }}  className="text-primary-skyblue mb-10">Nov 2024 - Present</motion.div>
                 </div>
-                <div className="ml-20 w-2/3">
+                <div  className="ml-0 md:ml-20 md:w-2/3">
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.5 }} ><a className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent font-poppins font-medium text-[1.2rem]">Backend Golang Developer </a>at Dibimbing</motion.div>
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="flex mt-2 mb-10">
                     <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-4 rounded-md py-1 px-2 bg-gradient-to-r from-blue-900 to-blue-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
