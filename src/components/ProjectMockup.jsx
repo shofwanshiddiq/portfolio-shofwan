@@ -13,7 +13,7 @@ export const ProjectMockup = () => {
         <div className="justify-left w-full md:w-3/4 font-poppins font-light text-[0.9rem] mb-40   mt-20">
         <motion.h1 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0 }}  className="mb-8 text-2xl">Projects</motion.h1>
           <div className="flex flex-col md:flex-row mb-12">
-            <div className="w-2/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
+            <div className="mb-10 md:mb-0 w-full md:w-2/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
                 <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -45,7 +45,7 @@ export const ProjectMockup = () => {
             </div>
 
 
-            <div className="w-1/3 ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+            <div className="w-full md:w-1/3 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
               <div className="overflow-hidden rounded-xl">
                 <img
                   className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -103,7 +103,7 @@ export const ProjectMockup = () => {
                         RESTful API
                         </div>
                 </div>
-                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-1/3">{project_ecommerce}</div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-full md:w-1/3">{project_ecommerce}</div>
                 <div  className="flex mt-2 justify-start">
                         <a href="https://www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                        See Website
@@ -118,7 +118,7 @@ export const ProjectMockup = () => {
           <div className="flex flex-col md:flex-row mb-12">
 
 
-              <div className="w-2/5 mr-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4  transform transition-transform duration-300 ease-in-out  hover:scale-110">
+              <div className="w-full md:w-2/5 mb-10 md:mb-0 mr-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4  transform transition-transform duration-300 ease-in-out  hover:scale-110">
               <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -153,7 +153,7 @@ export const ProjectMockup = () => {
               </div>
 
 
-              <div className="w-3/5 ml-6 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4  transform transition-transform duration-300 ease-in-out  hover:scale-110">
+              <div className="w-full md:w-3/5 md:ml-6 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4  transform transition-transform duration-300 ease-in-out  hover:scale-110">
               <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -189,7 +189,7 @@ export const ProjectMockup = () => {
           </div>
 
 
-        <div className="w-2/3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 mb-12 transform transition-transform duration-300 ease-in-out  hover:scale-105">
+        <div className="w-full md:w-2/3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 mb-12 transform transition-transform duration-300 ease-in-out  hover:scale-105">
           
           
             <div className="overflow-hidden rounded-xl">
@@ -214,7 +214,7 @@ export const ProjectMockup = () => {
                         MySQL
                         </div>
                 </div>
-                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-2/3">{project_ticketing}</div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-full md:w-2/3">{project_ticketing}</div>
                 <div  className="flex mt-2 justify-start">
                         <a href="https://www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                        See Website

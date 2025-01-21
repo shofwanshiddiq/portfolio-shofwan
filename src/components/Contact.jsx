@@ -5,7 +5,7 @@ import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope   } from "react-icons/fa"
 export const Contact = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-900">
-        <div className="justify-left w-full w-2/3 md:w-2/6 font-poppins font-light text-[0.9rem]">
+        <div className="text-center md:text-left justify-left  md:w-2/6 font-poppins font-light text-[0.9rem]">
             <h1 className="mb-8 text-2xl">Contact</h1>
             <a className="flex hover:text-primary-skyblue transition-colors duration-300  hover:cursor-pointer">
                 <FaEnvelope  className="cursor-pointer text-2xl" />
