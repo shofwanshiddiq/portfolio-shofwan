@@ -39,7 +39,7 @@ export const ProjectMockup = () => {
                         Website
                         </a>
                         <a href="https://github.com/shofwanshiddiq/portfolio-shofwan/"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        Repositories
+                        Documentation
                         </a>
                   </div>
             </div>
@@ -67,11 +67,8 @@ export const ProjectMockup = () => {
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{project_mobile}</div>
                 <div  className="flex mt-2 justify-start">
-                        <a href="www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                       Website
-                        </a>
-                        <a href="https://github.com/shofwanshiddiq/mobile-apps"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        Repositories
+                        <a href="https://github.com/shofwanshiddiq/mobile-apps-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
                         </a>
                   </div>
             </div>
@@ -108,8 +105,8 @@ export const ProjectMockup = () => {
                         <a href="https://www.minovais.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                        See Website
                         </a>
-                        <a href="https://github.com/shofwanshiddiq/mobile-apps"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        See Full Repositories
+                        <a href="https://github.com/shofwanshiddiq/ecommerce-apps-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
                         </a>
                   </div>
           </div>
@@ -146,8 +143,8 @@ export const ProjectMockup = () => {
                         <a href="https://enchantre.com"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                         Website
                         </a>
-                        <a href="https://github.com/shofwanshiddiq/enchantre"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        Repositories
+                        <a href="https://github.com/shofwanshiddiq/enchantre-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
                         </a>
                   </div>
               </div>
@@ -181,8 +178,8 @@ export const ProjectMockup = () => {
                         <a href="https://enchantre.com/product.html"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                         See Products
                         </a>
-                        <a href="https://github.com/shofwanshiddiq/enchantre"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        Repositories
+                        <a href="https://github.com/shofwanshiddiq/enchantre-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
                         </a>
                   </div>
               </div>
@@ -220,7 +217,7 @@ export const ProjectMockup = () => {
                        See Website
                         </a>
                         <a href="https://github.com/shofwanshiddiq/ticketing"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                        See Full Repositories
+                        Documentation
                         </a>
                   </div>
           </div>
