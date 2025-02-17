@@ -17,3 +17,9 @@ export const project_enchantre_website = `Commercials website for Enchantre digi
 export const project_ticketing = `Web Application for client support manage ticketing system submitted by clients. 
 
 Utilize PHP for back-end development, and cPanel API for communication with mySQL dataabase managed by phpMyAdmin`;
+
+export const projct_express =  `User management RESTful API built using Node.js, Express, and Knex for database connection. The API provides endpoints to manage users, allowing you to add and retrieve user data.`
+
+export const project_product = `RESTful API built using Golang with the Gin framework, GORM as the ORM for MySQL. Features create, update, get products, and delete products. Upload and download files with mutex and buffer for memory management.`
+
+export const project_login =   `RESTful API built using Golang with the Gin framework, GORM as the ORM for MySQL, JWT for authentication, and middleware for request handling. The API supports user authentication, tag creation, and post creation`

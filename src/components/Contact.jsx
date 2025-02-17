@@ -1,7 +1,6 @@
 
 import { FaLinkedin, FaGithub, FaInstagram, FaEnvelope   } from "react-icons/fa";
 
-/*************  ✨ Codeium Command 🌟  *************/
 export const Contact = () => {
   return (
     <div className="flex items-center justify-center h-screen bg-gray-900">
@@ -27,4 +26,3 @@ export const Contact = () => {
     </div>
   )
 }
-/******  dc8a0eb8-020a-43f2-86b6-671ae0d6c634  *******/
