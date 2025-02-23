@@ -3,6 +3,7 @@ import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
 import { ProjectMockup } from "./components/ProjectMockup";
+import { Skills } from "./components/Skills";
 import { Service } from "./components/Service";
 import { Contact } from "./components/Contact";
 import { useDarkMode } from "./DarkModeContext";
@@ -26,6 +27,7 @@ const App = () => {
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>
         <div id="projects"><ProjectMockup/></div>
+        <div id="skills"><Skills/></div>
         <div id="service"><Service/></div>
       </div>
       <div id="contact"><Contact /></div>

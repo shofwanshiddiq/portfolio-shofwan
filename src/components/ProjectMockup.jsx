@@ -14,9 +14,15 @@ export const ProjectMockup = () => {
   return (
     <div className="flex items-center justify-center">
         <div className="justify-left w-full md:w-4/4 font-poppins font-light text-[0.9rem] mb-40   mt-20">
-        <motion.h1 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0 }}  className="mb-8 text-2xl">Projects</motion.h1>
-          
-          <div className="flex flex-col md:flex-row mb-12">
+        <motion.h1 whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0 }}  className="mb-3 text-2xl">Projects</motion.h1>
+      
+      
+        <a href="https://github.com/shofwanshiddiq?tab=repositories"  target="_blank" className="w-[fit-content] hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Full Projects Documentation on Github
+                        </a>
+         
+         
+          <div className="flex flex-col md:flex-row mb-12 mt-8">
             <div className="mb-10 md:mb-0 w-full md:w-2/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
                 <div className="overflow-hidden rounded-xl">
                   <img
