@@ -38,6 +38,7 @@ export const Project = () => {
                         </motion.div>
                     </div>
                 </div>
+
                 <div className="flex flex-col md:flex-row mb-3 py-5 px-2">
                     <div>
                          <motion.img  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 1 }}  className="h-[30vh] mt-5" src={enchantre} alt="experience" />
@@ -69,6 +70,7 @@ export const Project = () => {
                         </motion.div>
                     </div>
                 </div>
+
                 <div className="flex flex-col md:flex-row mb-3 py-5 px-2">
                     <div>
                          <motion.img  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 1 }}  className="h-[30vh] mt-5" src={mobile} alt="experience" />
@@ -94,6 +96,7 @@ export const Project = () => {
                         </motion.div>
                     </div>
                 </div>
+                
                 <div className="flex flex-col md:flex-row mb-3 py-5 px-2">
                     <div>
                          <motion.img  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 1 }}  className="h-[30vh] mt-5" src={ecommerce} alt="experience" />

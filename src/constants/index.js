@@ -23,3 +23,7 @@ export const projct_express =  `User management RESTful API built using Node.js,
 export const project_product = `RESTful API built using Golang with the Gin framework, GORM as the ORM for MySQL. Features create, update, get products, and delete products. Upload and download files with mutex and buffer for memory management.`
 
 export const project_login =   `RESTful API built using Golang with the Gin framework, GORM as the ORM for MySQL, JWT for authentication, and middleware for request handling. The API supports user authentication, tag creation, and post creation`
+
+export const aspnet_webapi = `This is a .NET Web Application projects using .NET 8 features user data login management with bearer token authentication & authorization using Entity Frameworks Core Identity and CRUD operation for employees data management. Utilizing .NET Entity Frameworks for integration with Microsoft SQL Server. Utilize Swagger for web api deployment`
+
+export const aspnet_mvc =  `This is a .NET MVC Project for product transaction management, integrated with Microsoft SQL Server using .NET Entity Frameworks. Features CRUD operations for users, products, and transactions management.`

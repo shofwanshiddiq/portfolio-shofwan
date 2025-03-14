@@ -27,12 +27,13 @@ export const Experience = () => {
                     ExtJS
                     </div>
                     </motion.div>
-                    <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="font-poppins font-medium">Front-End</motion.div>
-                    <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="text-[0.8rem] mb-5">Collaborators for build and manage user interface and experience for Minova web application.</motion.div> 
-                    <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.9 }}  className="font-poppins font-medium">Back-End</motion.div>
-                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.9 }}  className="text-[0.8rem] mb-5">Collaborators for manage ASP.NET API. Manage MS SQL Server and mySQL databases supporting web applications and website. Perform data calculations for reporting such as accounting, time-management and many more modules</motion.div> 
-                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 1.1 }}  className="font-poppins font-medium">Mobile Apps</motion.div>
-                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 1.1 }}  className="text-[0.8rem] mb-5">Extend the web app to include Employee Self-Service features, such as photo and location capture for attendance, leave requests, logistics management, and supervisor approvals, providing easier access for employees.</motion.div> 
+                      <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="text-[0.8rem] mb-5">Designed and built an e-commerce application, integrating it with MinovaES accounting and logistics modules. Enabling retail clients to purchase goods, supporting multiple Minova retail clients across Indonesia, and providing nationwide access for their customers.</motion.div> 
+                    
+                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.9 }}  className="text-[0.8rem] mb-5">Built the MinovaHR mobile app as an extension of the web application, streamlining employee access to self-service features. Implemented modules for location-based attendance tracking with photo capture, leave request and approval workflows, and logistics management. Successfully deployed to 500+ employees across multiple companies in Indonesia.</motion.div> 
+               
+                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 1.1 }}  className="text-[0.8rem] mb-5">Managed the development and ongoing maintenance of the MinovaES front-end web application using a javascript framework ExtJS. Currently used daily by 20+ companies and 10.000+ users across Indonesia.</motion.div> 
+                    
+                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 1.1 }}  className="text-[0.8rem] mb-5">Designed and built a web application for client support, enabling efficient management of ticketing systems submitted by clients.</motion.div> 
                 </div>
             </div>
             

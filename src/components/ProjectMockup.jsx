@@ -8,7 +8,10 @@ import mockup_6 from "../assets/mockup_6.png"
 import mockup_7 from "../assets/mockup_7.png"
 import mockup_8 from "../assets/mockup_8.png"
 import mockup_9 from "../assets/mockup_9.png"
-import { project_portfolio, project_mobile, project_ecommerce, project_enchantre, project_enchantre_website, project_ticketing, projct_express, project_product, project_login}  from "../constants/index.js"
+import mockup_10 from "../assets/mockup_10.png"
+import mockup_11 from "../assets/mockup_11.png"
+import { aspnet_webapi, aspnet_mvc ,project_portfolio, project_mobile, project_ecommerce, project_enchantre, project_enchantre_website, project_ticketing, projct_express, project_product, project_login}  from "../constants/index.js"
+
 
 export const ProjectMockup = () => {
   return (
@@ -20,7 +23,80 @@ export const ProjectMockup = () => {
         <a href="https://github.com/shofwanshiddiq?tab=repositories"  target="_blank" className="w-[fit-content] hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                         Full Projects Documentation on Github
                         </a>
-         
+          
+          
+          <div className="flex flex-col md:flex-row mb-12 mt-8">
+
+
+            <div className="mb-10 md:mb-0 w-full md:w-1/2 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
+                <div className="overflow-hidden rounded-xl">
+                  <img
+                    className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                    src={mockup_10}
+                    alt="mockup_10"
+                  />
+                </div>
+                <div className="mt-2 text-right text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">ASP.NET WEB API for User login and Employees Data Management</div>
+                <div className="flex mt-2 mb-5 justify-start">
+                  
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-950 to-purple-800 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        ASP.NET Web API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       C#
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RESTful API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-700 to-yellow-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        MS SQL Server
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-green-700 to-green-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       Swagger
+                        </div>
+                </div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{aspnet_webapi}</div>
+                <div  className="flex mt-2 justify-start">
+                        <a href="https://github.com/shofwanshiddiq/NetWebApi"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
+                        </a>
+                  </div>
+            </div>
+
+
+            <div className="w-full md:w-1/2 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                  src={mockup_11}
+                  alt="mockup_11"
+                />
+              </div>
+              <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">ASP.NET MVC Application for Product Transaction Management</div>
+              <div className="flex mt-2 mb-5 justify-start">
+            
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-950 to-purple-800 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        ASP.NET MVC
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       C#
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RESTful API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-700 to-yellow-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        MS SQL Server
+                        </div>
+                </div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{aspnet_mvc}</div>
+                <div  className="flex mt-2 justify-start">
+                        <a href="https://github.com/shofwanshiddiq/mvc-product-transaction"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
+                        </a>
+                  </div>
+            </div>
+
+          </div>
          
           <div className="flex flex-col md:flex-row mb-12 mt-8">
             <div className="mb-10 md:mb-0 w-full md:w-2/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
@@ -84,7 +160,6 @@ export const ProjectMockup = () => {
             </div>
 
           </div>
-
 
           <div  className="flex flex-col md:flex-row mb-12">
 
@@ -187,7 +262,6 @@ export const ProjectMockup = () => {
         
           </div>
 
-
           <div  className="flex flex-col md:flex-row mb-12">
             <div className="w-full md:w-1/3 md:mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
             
@@ -236,14 +310,17 @@ export const ProjectMockup = () => {
                   </div>
                   <div className="mt-2 text-left text-[2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">E-Commerce Web App</div>
                 <div className="flex mt-2 mb-5 justify-start">
-                <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                          HTML & CSS5
+                         <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        ASP.NET Web Forms
                           </div>
-                          <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                        .NET Frameworks
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                          HTML & CSS5
                           </div>
                           <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         C#
+                          </div>
+                          <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-900 to-yellow-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        Javascript
                           </div>
                           <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                           RESTful API
