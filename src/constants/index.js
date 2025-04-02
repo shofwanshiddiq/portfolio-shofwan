@@ -27,3 +27,7 @@ export const project_login =   `RESTful API built using Golang with the Gin fram
 export const aspnet_webapi = `This is a .NET Web Application projects using .NET 8 features user data login management with bearer token authentication & authorization using Entity Frameworks Core Identity and CRUD operation for employees data management. Utilizing .NET Entity Frameworks for integration with Microsoft SQL Server. Utilize Swagger for web api deployment`
 
 export const aspnet_mvc =  `This is a .NET MVC Project for product transaction management, integrated with Microsoft SQL Server using .NET Entity Frameworks. Features CRUD operations for users, products, and transactions management.`
+
+export const aspnet_quiz = `This is a Web Application built using ReactJS, MaterialUI. Integrated with ASP.NET Core Web API and SQL Server Database. Features user registration & login, generate random 5 questions and answers, perform score calculation, and submit test result.`
+
+export const go_microservices =   `Microservices RESTful API built using Golang with Gin frameworks, GORM as ORM for MySQL, deployed using Docker compose alongside with message brokers using RabbitMQ `

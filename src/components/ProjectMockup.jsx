@@ -10,7 +10,8 @@ import mockup_8 from "../assets/mockup_8.png"
 import mockup_9 from "../assets/mockup_9.png"
 import mockup_10 from "../assets/mockup_10.png"
 import mockup_11 from "../assets/mockup_11.png"
-import { aspnet_webapi, aspnet_mvc ,project_portfolio, project_mobile, project_ecommerce, project_enchantre, project_enchantre_website, project_ticketing, projct_express, project_product, project_login}  from "../constants/index.js"
+import mockup_12 from "../assets/mockup_12.png"
+import { go_microservices, aspnet_quiz ,aspnet_webapi, aspnet_mvc ,project_portfolio, project_mobile, project_ecommerce, project_enchantre, project_enchantre_website, project_ticketing, projct_express, project_product, project_login}  from "../constants/index.js"
 
 
 export const ProjectMockup = () => {
@@ -28,7 +29,7 @@ export const ProjectMockup = () => {
           <div className="flex flex-col md:flex-row mb-12 mt-8">
 
 
-            <div className="mb-10 md:mb-0 w-full md:w-1/2 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
+            <div className="mb-10 md:mb-0 w-full md:w-1/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
                 <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -64,7 +65,7 @@ export const ProjectMockup = () => {
             </div>
 
 
-            <div className="w-full md:w-1/2 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+            <div className="w-full md:w-1/3 md:ml-3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
               <div className="overflow-hidden rounded-xl">
                 <img
                   className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -96,10 +97,85 @@ export const ProjectMockup = () => {
                   </div>
             </div>
 
+            <div className="w-full md:w-1/3 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                  src={mockup_12}
+                  alt="mockup_12"
+                />
+              </div>
+              <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Quiz Trivia Web App</div>
+              <div className="flex mt-2 mb-5 justify-start">
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-950 to-blue-800 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        ReactJS
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-950 to-purple-800 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        ASP.NET Core
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       C#
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RESTful API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-700 to-yellow-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        MS SQL Server
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-green-700 to-green-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        Swagger
+                        </div>
+                </div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{aspnet_quiz}</div>
+                <div  className="flex mt-2 justify-start">
+                        <a href="https://github.com/shofwanshiddiq/quiz-client"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Front-end Documentation
+                        </a>
+                        <a href="https://github.com/shofwanshiddiq/QuizAPI"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Back-end Documentation
+                        </a>
+                  </div>
+            </div>
+
           </div>
          
           <div className="flex flex-col md:flex-row mb-12 mt-8">
-            <div className="mb-10 md:mb-0 w-full md:w-2/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
+           
+            <div className="w-full md:w-1/3 md:mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+              <div className="overflow-hidden rounded-xl">
+                <img
+                  className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                  src={mockup_8}
+                  alt="mockup_8"
+                />
+              </div>
+              <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Go Microservices Product</div>
+              <div className="flex mt-2 mb-5 justify-start">
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-600 to-blue-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       Go
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RESTful API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-800 to-yellow-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        MySQL
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-800 to-blue-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        Docker
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-orange-800 to-orange-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RabbitMQ
+                        </div>
+                </div>
+                <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{go_microservices}</div>
+                <div  className="flex mt-2 justify-start">
+                        <a href="https://github.com/shofwanshiddiq/go-microservices-product"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        Documentation
+                        </a>
+                  </div>
+            </div>           
+           
+            <div className="mb-10 md:mb-0 w-full md:w-1/3 mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
                 <div className="overflow-hidden rounded-xl">
                   <img
                     className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
@@ -159,7 +235,10 @@ export const ProjectMockup = () => {
                   </div>
             </div>
 
+          
+
           </div>
+          
 
           <div  className="flex flex-col md:flex-row mb-12">
 
