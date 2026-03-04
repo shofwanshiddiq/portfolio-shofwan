@@ -211,20 +211,26 @@ export const ProjectMockup = () => {
               <div className="overflow-hidden rounded-xl">
                 <img
                   className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
-                  src={mockup_2}
-                  alt="mockup_2"
+                  src={mockup_8}
+                  alt="mockup_8"
                 />
               </div>
-              <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">HR Mobile Apps</div>
+              <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Gametify</div>
               <div className="flex mt-2 mb-5 justify-start">
-                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                       .NET Maui
-                        </div>
-                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                       C#
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-600 to-blue-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       Go
                         </div>
                         <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         RESTful API
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-800 to-yellow-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        MySQL
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-800 to-blue-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        Docker
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-orange-800 to-orange-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RabbitMQ
                         </div>
                 </div>
                 <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{project_mobile}</div>
@@ -342,7 +348,7 @@ export const ProjectMockup = () => {
           </div>
 
           <div  className="flex flex-col md:flex-row mb-12">
-            <div className="w-full md:w-1/3 md:mr-8 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
+            <div className="w-full md:w-1/3 md:mr-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
             
             
             <div className="overflow-hidden rounded-xl">
@@ -352,7 +358,7 @@ export const ProjectMockup = () => {
                     alt="mockup_5"
                   />
                 </div>
-                <div className="mt-2 text-left text-[1.7rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Ticketing Web App</div>
+                <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Ticketing Web App</div>
               <div className="flex mt-2 mb-5 justify-start">
               <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-900 to-gray-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         HTML & CSS5
@@ -377,7 +383,7 @@ export const ProjectMockup = () => {
                         </a>
                   </div>
           </div>
-            <div className="w-full md:w-2/3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
+            <div className="w-full md:w-1/3 md::mr-4 md:ml-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
             
             
             <div className="overflow-hidden rounded-xl">
@@ -387,7 +393,7 @@ export const ProjectMockup = () => {
                       alt="mockup_3"
                     />
                   </div>
-                  <div className="mt-2 text-left text-[2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">E-Commerce Web App</div>
+                  <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">E-Commerce Web App</div>
                 <div className="flex mt-2 mb-5 justify-start">
                          <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
                         ASP.NET Web Forms
@@ -411,6 +417,35 @@ export const ProjectMockup = () => {
                         See Website
                           </a>
                           <a href="https://github.com/shofwanshiddiq/ecommerce-apps-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                          Documentation
+                          </a>
+                    </div>
+            </div>
+            <div className="w-full md:w-1/3 md:ml-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-105">
+            
+            
+            <div className="overflow-hidden rounded-xl">
+                    <img
+                      className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                      src={mockup_2}
+                      alt="mockup_2"
+                    />
+                  </div>
+                  <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">HR Mobile Apps</div>
+                  <div className="flex mt-2 mb-5 justify-start">
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-900 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       .NET Maui
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-red-900 to-red-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                       C#
+                        </div>
+                        <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                        RESTful API
+                        </div>
+                </div>
+                  <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-full">{project_mobile}</div>
+                  <div  className="flex mt-2 justify-start">
+                          <a href="https://github.com/shofwanshiddiq/mobile-apps-docs"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                           Documentation
                           </a>
                     </div>
