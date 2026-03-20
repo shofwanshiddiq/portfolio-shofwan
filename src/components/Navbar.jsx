@@ -2,7 +2,7 @@ import { useState } from "react";
 import PropTypes from "prop-types";
 import { Link } from "react-scroll";
 import logo from "../assets/sslogo.png";
-import { FaLinkedin, FaGithub, FaInstagram, FaFilePdf  } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaInstagram } from "react-icons/fa";
 import { FiMenu } from "react-icons/fi";
 
 export const Navbar = ({ isDarkMode }) => {
@@ -75,19 +75,6 @@ export const Navbar = ({ isDarkMode }) => {
             <a href="https://www.instagram.com/shofwanshiddiq/">
               <FaInstagram className="hover:text-primary-skyblue transition-colors duration-300 cursor-pointer" />
             </a>
-            <div className="relative group inline-block">
-              <a
-                href="/assets/Software_Engineer-Shofwan_Shiddiq.pdf"
-                download="Software_Engineer-Shofwan_Shiddiq.pdf"
-                className="hover:text-primary-skyblue transition-colors duration-300 cursor-pointer"
-              >
-                <FaFilePdf size={24} />
-              </a>
-              {/* Tooltip */}
-              <span className="absolute top-8 left-1/2 transform -translate-x-1/2 scale-0 group-hover:scale-100 transition-transform duration-300 bg-gray-800 text-white text-xs rounded-md px-2 py-1 whitespace-nowrap">
-                Download Portfolio PDF
-              </span>
-            </div>
             {/* Original Menu Icon */}
             <button
               onClick={toggleNavbar}
