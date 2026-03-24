@@ -74,7 +74,7 @@ export const Experience = () => {
 
             <div  className="hover:bg-primary-skyblue hover:bg-opacity-5 flex flex flex-col md:flex-row mb-10 py-5 px-5 rounded-md">
                 <div>
-                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0.2 }}  className="text-primary-skyblue mb-10">Des 2025 - Present</motion.div>
+                    <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: -50 }} transition={{ duration: 1, delay: 0.2 }}  className="text-primary-skyblue mb-10">Dec 2025 - Jun 2026</motion.div>
                 </div>
                 <div  className="ml-0 md:ml-20 md:w-2/3">
                     <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.5 }} ><a className="bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent font-poppins font-medium text-[1.2rem]">Cybersecurity </a>at Dibimbing</motion.div>
@@ -126,7 +126,7 @@ export const Experience = () => {
                      <motion.div  whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.5 }}  className="flex mt-2 mb-5 font-poppins font-medium">Batch 2</motion.div>
                     <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="text-[0.8rem] mb-5">Focusing on golang backend development integrate with MySQL for relational database and MongoDB for non-relational database through Restful API, also utilizing Docker for containerization.</motion.div> 
                     <motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="flex mt-2 mb-2">
-                        <a href="https://dibimbing-lms-dev.s3.ap-southeast-1.amazonaws.com/production/bootcamp_null/201029GO02051814/56058"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://dibimbing.id/certificate-validation?cn=201029GO02051814"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                             Certificate
                         </a>
                          <a href="https://dibimbing-lms-dev.s3.ap-southeast-1.amazonaws.com/1747322308828-P5-Shofwan.pdf"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-2 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
