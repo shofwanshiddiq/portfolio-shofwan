@@ -2,7 +2,7 @@ import { Navbar } from "./components/Navbar";
 import { Home } from "./components/Home";
 import { About } from "./components/About";
 import { Experience } from "./components/Experience";
-import { ProjectMockup } from "./components/ProjectMockup";
+import { ProjectBackend } from "./components/ProjectBackend";
 import { Skills } from "./components/Skills";
 import { Service } from "./components/Service";
 import { Contact } from "./components/Contact";
@@ -26,7 +26,7 @@ const App = () => {
         <div id="home"><Home /></div>
         <div id="about"><About /></div>
         <div id="experience"><Experience /></div>
-        <div id="projects"><ProjectMockup/></div>
+        <div id="projects"><ProjectBackend/></div>
         <div id="skills"><Skills/></div>
         <div id="service"><Service/></div>
       </div>

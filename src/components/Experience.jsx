@@ -94,7 +94,10 @@ export const Experience = () => {
                      <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="text-[0.8rem] mb-5">Identification web and infrastructure vulnerabilities such as injection attacks, SSRF, broken access control, security misconfigurations, and DoS.</motion.div> 
                      <motion.div   whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="text-[0.8rem] mb-5">Hands-on experiance in penetration testing, including vulnerability assessment, exploitation, reporting & mitigation.</motion.div> 
                     {<motion.div whileInView={{ opacity: 1, x: 0 }} initial={{ opacity: 0, x: 50 }} transition={{ duration: 2, delay: 0.6 }}  className="flex mt-2 mb-2">
-                        <a  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                        <a href="https://github.com/shofwanshiddiq/cybersecurity-portfolio-shofwan" target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                            Cybersecurity Portfolio
+                        </a>
+                        <a  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2  ml-2 py-1 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
                             Certificate
                         </a>
                          <a   target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-2 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">

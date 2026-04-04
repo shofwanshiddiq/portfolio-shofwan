@@ -30,4 +30,10 @@ export const aspnet_mvc =  `This is a .NET MVC Project for product transaction m
 
 export const aspnet_quiz = `This is a Web Application built using ReactJS, MaterialUI. Integrated with ASP.NET Core Web API and SQL Server Database. Features user registration & login, generate random 5 questions and answers, perform score calculation, and submit test result.`
 
-export const go_microservices =   `Microservices RESTful API built using Golang with Gin frameworks, GORM as ORM for MySQL, deployed using Docker compose alongside with message brokers using RabbitMQ `
+export const go_microservices =   `Microservices RESTful API built using Golang with Gin frameworks, GORM as ORM for MySQL, deployed using Docker compose alongside with message brokers using RabbitMQ. `
+
+export const gametify =   `Game Room Booking App Backend Services built using Golang with Gin frameworks, GORM as ORM for MySQL. Features user login, registration with email and password authorization, find rooms, places, and package type, see available rooms, perform a booking, and check booking history.`
+
+export const cybersecurity_portfolio =   `Cybersecurity portfolio consist of application penetration testing, offensive security simulations, and malware analysis. All research documented here was conducted exclusively in authorized lab environments, intentionally vulnerable applications (OWASP Juice Shop), and sandbox platforms.`
+
+export const recon =   `An automated pipeline for subdomain enumeration and active host detection using Bash, subfinder, httpx, and anew. This script automates the reconnaissance process for bug bounty and penetration testing purposes in a legal and ethical manner as a learning method.`
