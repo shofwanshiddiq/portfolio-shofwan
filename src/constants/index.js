@@ -37,3 +37,5 @@ export const gametify =   `Game Room Booking App Backend Services built using Go
 export const cybersecurity_portfolio =   `Cybersecurity portfolio consist of application penetration testing, offensive security simulations, and malware analysis. All research documented here was conducted exclusively in authorized lab environments, intentionally vulnerable applications (OWASP Juice Shop), and sandbox platforms.`
 
 export const recon =   `An automated pipeline for subdomain enumeration and active host detection using Bash, subfinder, httpx, and anew. This script automates the reconnaissance process for bug bounty and penetration testing purposes in a legal and ethical manner as a learning method.`
+
+export const project_weatherify =   `A web app with full-featured weather dashboard built with React, TypeScript, and Vite — designed to demonstrate modern front-end architecture, interactive data visualization, and polished UI/UX craftsmanship.`
