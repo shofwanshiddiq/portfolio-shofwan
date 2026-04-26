@@ -39,3 +39,7 @@ export const cybersecurity_portfolio =   `Cybersecurity portfolio consist of app
 export const recon =   `An automated pipeline for subdomain enumeration and active host detection using Bash, subfinder, httpx, and anew. This script automates the reconnaissance process for bug bounty and penetration testing purposes in a legal and ethical manner as a learning method.`
 
 export const project_weatherify =   `A web app with full-featured weather dashboard built with React, TypeScript, and Vite — designed to demonstrate modern front-end architecture, interactive data visualization, and polished UI/UX craftsmanship.`
+
+export const project_flightify =  `A flight booking web application and live tracker built with React, TypeScript, and Vite — designed to demonstrate modern front-end architecture, interactive data visualization, and polished UI/UX craftsmanship. The app features a user-friendly interface for searching and booking flights, with real-time updates and seamless navigation.`
+
+export const dibishop_pentest =  `Penetration testing was conducted against the Dibimbing Shop web application (http://dibishop.duckdns.org), covering both the user-facing side and the admin panel. A total of 9 vulnerabilities were identified with the following details.`

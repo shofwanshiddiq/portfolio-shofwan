@@ -7,7 +7,8 @@ import mockup_10 from "../assets/mockup_10.png"
 import mockup_11 from "../assets/mockup_11.png"
 import mockup_12 from "../assets/mockup_12.png"
 import weatherify from "../assets/weatherify.png"
-import { aspnet_quiz ,aspnet_webapi, aspnet_mvc, gametify, go_microservices, projct_express, project_login, project_product, project_portfolio, cybersecurity_portfolio, recon, project_weatherify }  from "../constants/index.js"
+import flightify from "../assets/flightify.png"
+import { aspnet_quiz ,aspnet_webapi, aspnet_mvc, gametify, go_microservices, projct_express, project_login, project_product, project_portfolio, cybersecurity_portfolio, recon, project_weatherify , project_flightify , dibishop_pentest }  from "../constants/index.js"
 
 
 export const ProjectBackend = () => {
@@ -378,6 +379,39 @@ export const ProjectBackend = () => {
                         </div>
                 </div>
 
+
+                {/* Flightify */}
+                 <div className="w-full md:w-1/3 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+                          
+                    <div className="overflow-hidden rounded-xl h-[250px] aspect-[16/9] w-full">
+                        <img
+                            className="rounded-xl transform transition-transform duration-500 ease-in-out hover:scale-110"
+                            src={flightify}
+                            alt="flightify"
+                        />
+                        </div>
+                        <div className="mt-2 text-left text-[1.25rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Flightify</div>
+                        <div className="flex mt-2 mb-5 justify-start">
+                            <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-purple-800 to-purple-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                                Vite
+                                </div>
+                                <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-950 to-blue-800 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                                React
+                                </div>
+                                <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue ml-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-700 to-blue-400 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
+                                Typescript
+                            </div>
+                        </div>
+                        <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-full">{project_flightify}</div>
+                        <div  className="flex mt-2 justify-start">
+                                <a href="https://flightify.vercel.app/"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 ml-0 mr-3  bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                                    Website
+                                </a>
+                                <a href="https://github.com/shofwanshiddiq/flightify"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                                Documentation
+                                </a>
+                        </div>
+                </div>
             </div>
 
         {/* CYBERSECURITY PORFOLIO */}
@@ -387,7 +421,7 @@ export const ProjectBackend = () => {
             {/* ROW 1 */}
             <div className="flex flex-col md:flex-row mb-8 mt-4 ">
 
-                {/* Cybersecuruity Portfolio */}
+                {/* Cybersecurity Portfolio */}
                 <div className="mb-10 md:mb-0 w-full md:w-1/3 mr-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110">
                     <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Cybersecurity Portfolio</div>
                     <div className="flex mt-2 mb-5 justify-start">
@@ -412,36 +446,31 @@ export const ProjectBackend = () => {
                         </div>
                 </div>
 
-                {/* Dibishop Penetration Testing Report */}
-                {/* <div className="w-full md:w-1/3 md:ml-3 mr-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
-                    <div className="mt-2 text-left text-[1.2rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Go Microservices Product</div>
+                {/* Dibishop Penetration Testing */}
+                 <div className="w-full md:w-1/3 md:ml-3 mr-4 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+                  
+                        <div className="mt-2 text-left text-[1.25rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Dibishop Penetration Testing</div>
                     <div className="flex mt-2 mb-5 justify-start">
                             <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-600 to-blue-500 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                            Go
+                            Kali Linux
                             </div>
                             <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-gray-800 to-gray-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                            RESTful API
+                            Burp Suite
                             </div>
                             <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-yellow-800 to-yellow-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                            MySQL
+                            SQL Map
                             </div>
-                            <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-blue-800 to-blue-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                            Docker
-                            </div>
-                            <div className="hover:cursor-pointer hover:text-primary-skyblue hover:bg-primary-skyblue mr-2 rounded-md py-1 px-2 bg-gradient-to-r from-orange-800 to-orange-600 bg-opacity-50 font-poppins font-medium text-[0.8rem]">
-                            RabbitMQ
-                            </div>
-                    </div>
-                    <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left">{go_microservices}</div>
-                    <div  className="flex mt-2 justify-start">
-                            <a href="https://github.com/shofwanshiddiq/go-microservices-product"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
-                            Documentation
-                            </a>
                         </div>
-                </div>  */}
+                        <div className="text-[0.8rem] mb-5 whitespace-pre-line text-left w-full">{dibishop_pentest}</div>
+                        <div  className="flex mt-2 justify-start">
+                                <a href="https://github.com/shofwanshiddiq/penetration-testing-dibishop"  target="_blank" className="hover:cursor-pointer hover:bg-primary-skyblue hover:text-black px-2 py-1 mr-3 bg-primary-skyblue rounded-md bg-opacity-10 font-poppins font-medium text-[0.8rem]">
+                                Documentation
+                                </a>
+                        </div>
+                </div>
 
                 {/* Reconnaisance Automation */}
-                 <div className="w-full md:w-1/3 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
+                 <div  className="w-full md:w-1/3 md:ml-3 rounded-2xl bg-gray-800 bg-opacity-30 py-4 px-4 transform transition-transform duration-300 ease-in-out  hover:scale-110 ">
                   
                         <div className="mt-2 text-left text-[1.25rem] font-poppins font-semibold bg-gradient-to-r from-indigo-500 from-10% via-sky-500 via-30% to-emerald-500 to-90% bg-clip-text text-transparent">Reconnaisance Automation</div>
                     <div className="flex mt-2 mb-5 justify-start">
